@@ -1,0 +1,15 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: "fun main() {    \n    val inputList: MutableList<MutableList<String>> = mutableListOf()\n\
+    \    val n = readLine()!!.toInt()\n    for (i in 0 until n) {\n        val strings\
+    \ = readLine()!!.split(' ').toMutableList()\n        inputList.add(strings)\n\
+    \    }\n    // Do not change lines above\n    // Write your code here\n\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15132#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 01 Feb 2023 04:45:58 UTC"
+record: -1
